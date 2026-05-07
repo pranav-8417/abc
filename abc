@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Exercise</title>
+
+    <style>
+        * {
+            margin: 0px;
+            padding: 0px;
+        }
+
+        #nav {
+
+            background-color: rgb(49, 27, 246);
+
+            padding: 20px;
+
+        }
+
+        ul li {
+            display: inline;
+            margin-left: 10px;
+            padding: 15px;
+            color: white;
+        }
+
+        #container1 {
+            background-color: rgb(192, 233, 244);
+            margin: 10px;
+            display: flex;
+            justify-content: center;
+            gap: 20px;
+            align-items: center;
+        }
+
+        #container2 {
+            background-color: rgb(243, 142, 241);
+            display: inline-block;
+            height: 333px;
+            width: 333px;
+            padding: 50px;
+            margin: 20px;
+        }
+
+        #container3 {
+            background-color: rgb(186, 147, 237);
+            display: inline-block;
+            height: 333px;
+            width: 333px;
+            padding: 50px;
+            margin: 20px;
+        }
+
+        #container4 {
+            background-color: beige;
+            height: 250px;
+            padding: 50px;
+            margin-left: 80px;
+            margin-right: 80px;
+            margin-top: 20px;
+            margin-bottom: 20px;
+            border-radius: 150px;
+            padding: auto;
+            
+
+            }
+            #para {
+                text-align: center;
+                font-size: 50px;
+            }
+        #icon {
+            background-color: rgb(241, 27, 27);
+            height: 30px;
+            width: 30px;
+            border-radius: 50%;
+            display: inline-block;
+            position: fixed;
+            right: 10px;
+            bottom: 70px;
+            
+        }
+    </style>
+</head>
+
+<body>
+    <div>
+        <nav id="nav">
+            <ul>
+                <li>Home</li>
+                <li>About</li>
+                <li>Services</li>
+                <li>Contact</li>
+            </ul>
+        </nav>
+    </div>
+
+    <div id="container1">
+        <div id="container2">
+
+        </div>
+
+        <div id="container3">
+
+        </div>
+    </div>
+
+    <div id="container4">
+        <p id="para">Welcome to our website!</p>
+    </div>
+
+    <div id="icon">
+
+    </div>
+
+    <div id="container5">
+        <footer style="background-color: rgb(49, 27, 246); height: 50px; display: flex; justify-content: center; align-items: center; color: white; clear: both;">
+            &copy; 2024 Your Company. All rights reserved.
+        </footer>
+    </div>
+
+
+</body>
+
+</html>
